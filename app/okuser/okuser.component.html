@@ -1,0 +1,88 @@
+<div class="todo">
+	<div class="headerimport">
+		<div class="cel">
+			<h1>SaveDoc</h1>
+			<p>≡</p>
+		</div>
+		<nav>
+			<p class="o1" onclick="
+			document.querySelector('.pro').style.display = 'flex';
+			document.querySelector('.pub').style.display = 'none';
+			document.querySelector('.not').style.display = 'none';
+			document.querySelector('.opc').style.display = 'none';
+			document.querySelector('.o1').style.fontWeight = '1000';
+			document.querySelector('.o2').style.fontWeight = '500';
+			document.querySelector('.o3').style.fontWeight = '500';
+			document.querySelector('.o4').style.fontWeight = '500';
+			">Proyectos</p>
+			<p class="o2" onclick="
+			document.querySelector('.pro').style.display = 'none';
+			document.querySelector('.pub').style.display = 'flex';
+			document.querySelector('.not').style.display = 'none';
+			document.querySelector('.opc').style.display = 'none';
+			document.querySelector('.o1').style.fontWeight = '500';
+			document.querySelector('.o2').style.fontWeight = '1000';
+			document.querySelector('.o3').style.fontWeight = '500';
+			document.querySelector('.o4').style.fontWeight = '500';
+			">Publicaciones</p>
+			<p class="o3" onclick="
+			document.querySelector('.pro').style.display = 'none';
+			document.querySelector('.pub').style.display = 'none';
+			document.querySelector('.not').style.display = 'flex';
+			document.querySelector('.opc').style.display = 'none';
+			document.querySelector('.o1').style.fontWeight = '500';
+			document.querySelector('.o2').style.fontWeight = '500';
+			document.querySelector('.o3').style.fontWeight = '1000';
+			document.querySelector('.o4').style.fontWeight = '500';
+			">Notificaciones</p>
+			<p class="o4" onclick="
+			document.querySelector('.pro').style.display = 'none';
+			document.querySelector('.pub').style.display = 'none';
+			document.querySelector('.not').style.display = 'none';
+			document.querySelector('.opc').style.display = 'flex';
+			document.querySelector('.o1').style.fontWeight = '500';
+			document.querySelector('.o2').style.fontWeight = '500';
+			document.querySelector('.o3').style.fontWeight = '500';
+			document.querySelector('.o4').style.fontWeight = '1000';
+			">Opciones</p>
+			<p class="o5" onclick="location.href=''">Cerrar Sesion</p>
+		</nav>
+	</div>
+	<div class="main">
+		<div class="pro">
+			<app-projectuser></app-projectuser>
+		</div>
+		<div class="pub">
+			<app-publicacionesuser></app-publicacionesuser>
+		</div>
+		<div class="not">
+			<app-notificuser></app-notificuser>
+		</div>
+		<div class="opc">
+			<div class="listopciones">
+				<button>Background</button>
+			</div>
+			<div class="panel">
+				<div class="backgroundd">
+					<table>
+						<tr>
+							<td class="color1"></td>
+							<td class="color2"></td>
+							<td class="color3"></td>
+							<td class="color4"></td>
+						</tr>
+						<tr>
+							<td class="color5"></td>
+							<td class="color6"></td>
+							<td class="color7"></td>
+							<td class="color8"></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<p>&copy; Carlos Enrique Riascos Angulo</p>
+	</div>
+</div>

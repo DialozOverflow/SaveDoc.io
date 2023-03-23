@@ -1,0 +1,78 @@
+<div class="ilucion">
+	<div class="desplazamiento">
+		<div class="recover">
+			<div class="centrar">
+				<h2>Recuperar Contraseña</h2>
+				<div class="poner">
+					<input type="text" placeholder="Ingrese su numero telefonico">
+				</div>
+				<div class="poner">
+					<input type="text" placeholder="Ingrese el codigo que le llego a su celular">
+				</div>
+				<div class="opss">
+					<p>Tu contraseña es:</p>
+					<a onclick="
+					document.querySelector('.desplazamiento').style.transition = '.5s';
+					document.querySelector('.desplazamiento').style.left = '-100%';
+					">Iniciar Sesion</a>
+				</div>
+				<button>Recuperar</button>
+			</div>
+		</div>
+		<div class="login">
+			<div class="centrar">
+				<h2>Login</h2>
+				<div class="input-set">
+					<input type="email" placeholder="Escriba su correo">
+				</div>
+				<div class="input-set">
+					<input type="password" placeholder="Escriba su contraseña">
+				</div>
+				<div class="restaurar">
+					<div class="view-password">
+						<input type="checkbox">
+						<p>Revelar</p>
+					</div>
+					<a class="a1" onclick="
+					document.querySelector('.desplazamiento').style.transition = '.5s';
+					document.querySelector('.desplazamiento').style.left = '0%';
+					">Recuperar contraseña</a>
+				</div>
+				<button type="submit" onclick="location.href='okuser'">Login</button>
+				<p class="a2" onclick="
+					document.querySelector('.desplazamiento').style.transition = '.5s';
+					document.querySelector('.desplazamiento').style.left = '-200%';
+					">¿No tienes una cuenta?</p>
+			</div>
+		</div>
+		<div class="register">
+			<div class="centrar">
+				<h2>Register</h2>
+				<div class="input-reg">
+					<input type="text" placeholder="Escriba su nombre">
+				</div>
+				<div class="input-reg">
+					<input type="text" placeholder="Escriba su telefono">
+				</div>
+				<div class="input-reg">
+					<input type="email" placeholder="Escriba su correo">
+				</div>
+				<div class="input-reg">
+					<input type="password" placeholder="Escriba su contraseña">
+				</div>
+				<div class="input-reg">
+					<input type="password" placeholder="Confirme su contraseña">
+				</div>
+				<div class="autoria">
+					<input type="checkbox">
+					<a>Acepta todas las <a href="">politicas y condiciones</a></a>
+				</div>
+				<button>Registrarse</button>
+				<p class="a2" onclick="
+					document.querySelector('.desplazamiento').style.transition = '.5s';
+					document.querySelector('.desplazamiento').style.left = '-100%';
+					">¿Ya tienes una cuenta?</p>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,251 @@
+<div class="contenedor">
+	<div class="tuspublicaciones">
+		<div class="icon" onclick="
+		let todo = document.querySelector('.tuspublicaciones .icon img');
+		if (todo.style.transform === ''){
+			todo.style.transform = 'rotateZ(180deg)';
+			todo.style.transition = '.5s';
+		}if (todo.style.transform === 'rotateZ(0deg)'){
+			todo.style.transform = 'rotateZ(180deg)';
+			todo.style.transition = '.5s';
+		}else{
+			todo.style.transform = 'rotateZ(0deg)';
+		};
+		">
+			<img src="assets/icons/211614_down_b_arrow_icon.svg">
+			<p>Tus Publicaciones</p>
+		</div>
+	</div>
+	<div class="generalpublicaciones">
+		<div class="icon">
+			<p>Publicaciones Generales</p>
+		</div>
+		<div class="antepro1" onclick="
+		document.querySelector('.generalpublicaciones').style.display = 'none';
+		document.querySelector('.tuspublicaciones').style.display = 'none';
+		document.querySelector('.view').style.display = 'grid';
+		let titulo = document.querySelector('.antepro1 .info h2').textContent;
+		let fecha = document.querySelector('.antepro1 .info .f').textContent;
+		let autor = document.querySelector('.antepro1 .info .a').textContent;
+		let insert = document.querySelector('.view');
+		insert.querySelector('.autor').textContent = autor;
+		insert.querySelector('.fechac').textContent = fecha;
+		insert.querySelector('.titulo-antepro').textContent = titulo;
+		">
+			<div class="info">
+				<h2>Ondas Electromagneticas</h2>
+				<p class="f">Fecha de Creacion:2023-3-20</p>
+				<p class="a">Autor:Miguel</p>
+			</div>
+			<div class="puntuacion">
+				<img src="assets/icons/2849826_finger_interaction_hand_like_multimedia_icon.svg">
+				<p>112124</p>
+				<img src="assets/icons/2849816_finger_hand_like_multimedia_icon.svg">
+				<p>122</p>
+			</div>
+		</div>
+		<div class="antepro2" onclick="
+		document.querySelector('.generalpublicaciones').style.display = 'none';
+		document.querySelector('.tuspublicaciones').style.display = 'none';
+		document.querySelector('.view').style.display = 'grid';
+		let titulo = document.querySelector('.antepro2 .info h2').textContent;
+		let fecha = document.querySelector('.antepro2 .info .f').textContent;
+		let autor = document.querySelector('.antepro2 .info .a').textContent;
+		let insert = document.querySelector('.view');
+		insert.querySelector('.autor').textContent = autor;
+		insert.querySelector('.fechac').textContent = fecha;
+		insert.querySelector('.titulo-antepro').textContent = titulo;
+		">
+			<div class="info">
+				<h2>Inteligencia Artificial</h2>
+				<p class="f">Fecha de Creacion:2023-3-20</p>
+				<p class="a">Autor:Carlos</p>
+			</div>
+			<div class="puntuacion">
+				<img src="assets/icons/2849826_finger_interaction_hand_like_multimedia_icon.svg">
+				<p>112124</p>
+				<img src="assets/icons/2849816_finger_hand_like_multimedia_icon.svg">
+				<p>122</p>
+			</div>
+		</div>
+		<div class="antepro3" onclick="
+		document.querySelector('.generalpublicaciones').style.display = 'none';
+		document.querySelector('.tuspublicaciones').style.display = 'none';
+		document.querySelector('.view').style.display = 'grid';
+		let titulo = document.querySelector('.antepro3 .info h2').textContent;
+		let fecha = document.querySelector('.antepro3 .info .f').textContent;
+		let autor = document.querySelector('.antepro3 .info .a').textContent;
+		let insert = document.querySelector('.view');
+		insert.querySelector('.autor').textContent = autor;
+		insert.querySelector('.fechac').textContent = fecha;
+		insert.querySelector('.titulo-antepro').textContent = titulo;
+		">
+			<div class="info">
+				<h2>Enviar Informacion Sin Perdida</h2>
+				<p class="f">Fecha de Creacion:2023-3-20</p>
+				<p class="a">Autor:Arnold</p>
+			</div>
+			<div class="puntuacion">
+				<img src="assets/icons/2849826_finger_interaction_hand_like_multimedia_icon.svg">
+				<p>112124</p>
+				<img src="assets/icons/2849816_finger_hand_like_multimedia_icon.svg">
+				<p>122</p>
+			</div>
+		</div>
+		<div class="antepro4" onclick="
+		document.querySelector('.generalpublicaciones').style.display = 'none';
+		document.querySelector('.tuspublicaciones').style.display = 'none';
+		document.querySelector('.view').style.display = 'grid';
+		let titulo = document.querySelector('.antepro4 .info h2').textContent;
+		let fecha = document.querySelector('.antepro4 .info .f').textContent;
+		let autor = document.querySelector('.antepro4 .info .a').textContent;
+		let insert = document.querySelector('.view');
+		insert.querySelector('.autor').textContent = autor;
+		insert.querySelector('.fechac').textContent = fecha;
+		insert.querySelector('.titulo-antepro').textContent = titulo;
+		">
+			<div class="info">
+				<h2>Microorganismos</h2>
+				<p class="f">Fecha de Creacion:2023-3-20</p>
+				<p class="a">Autor:Sebastian</p>
+			</div>
+			<div class="puntuacion">
+				<img src="assets/icons/2849826_finger_interaction_hand_like_multimedia_icon.svg">
+				<p>112124</p>
+				<img src="assets/icons/2849816_finger_hand_like_multimedia_icon.svg">
+				<p>122</p>
+			</div>
+		</div>
+		<div class="antepro5" onclick="
+		document.querySelector('.generalpublicaciones').style.display = 'none';
+		document.querySelector('.tuspublicaciones').style.display = 'none';
+		document.querySelector('.view').style.display = 'grid';
+		let titulo = document.querySelector('.antepro5 .info h2').textContent;
+		let fecha = document.querySelector('.antepro5 .info .f').textContent;
+		let autor = document.querySelector('.antepro5 .info .a').textContent;
+		let insert = document.querySelector('.view');
+		insert.querySelector('.autor').textContent = autor;
+		insert.querySelector('.fechac').textContent = fecha;
+		insert.querySelector('.titulo-antepro').textContent = titulo;
+		">
+			<div class="info">
+				<h2>Problemas De Trafico</h2>
+				<p class="f">Fecha de Creacion:2023-3-20</p>
+				<p class="a">Autor:Isamar</p>
+			</div>
+			<div class="puntuacion">
+				<img src="assets/icons/2849826_finger_interaction_hand_like_multimedia_icon.svg">
+				<p>112124</p>
+				<img src="assets/icons/2849816_finger_hand_like_multimedia_icon.svg">
+				<p>122</p>
+			</div>
+		</div>
+		<div class="antepro6" onclick="
+		document.querySelector('.generalpublicaciones').style.display = 'none';
+		document.querySelector('.tuspublicaciones').style.display = 'none';
+		document.querySelector('.view').style.display = 'grid';
+		let titulo = document.querySelector('.antepro6 .info h2').textContent;
+		let fecha = document.querySelector('.antepro6 .info .f').textContent;
+		let autor = document.querySelector('.antepro6 .info .a').textContent;
+		let insert = document.querySelector('.view');
+		insert.querySelector('.autor').textContent = autor;
+		insert.querySelector('.fechac').textContent = fecha;
+		insert.querySelector('.titulo-antepro').textContent = titulo;
+		">
+			<div class="info">
+				<h2>Energias Renovables</h2>
+				<p class="f">Fecha de Creacion:2023-3-20</p>
+				<p class="a">Autor:Marlon</p>
+			</div>
+			<div class="puntuacion">
+				<img src="assets/icons/2849826_finger_interaction_hand_like_multimedia_icon.svg">
+				<p>112124</p>
+				<img src="assets/icons/2849816_finger_hand_like_multimedia_icon.svg">
+				<p>122</p>
+			</div>
+		</div>
+	</div>
+	<div class="view">
+		<label class="autor"></label>
+		<label class="fechac"></label>
+		<h1 class="titulo-antepro"></h1>
+		<section id= "t1">
+			<h2>PROBLEMA</h2>
+		</section>
+		<section id = 't2'>
+			<label>Planteamiento del Problema</label>
+			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur beatae, vel porro labore reiciendis, nulla esse perferendis dignissimos deserunt, libero in odit explicabo saepe optio obcaecati aliquid alias similique, consectetur?</p>
+		</section>
+		<section id = 't3'>
+			<label>Justificacion</label>
+			<p>Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Nam excepturi quis magni dicta repellendus. Itaque iste enim cupiditate, porro ipsam quibusdam quo, maiores, esse, aliquid cumque magnam odio repudiandae architecto!</p>
+		</section>
+		<section id = 't4'>
+			<h2>OBJETIVOS</h2>
+		</section>
+		<section id = 't5'>
+			<label>Objetivo General</label>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ipsam, nemo, temporibus recusandae reprehenderit vero exercitationem ullam magni! Exercitationem veritatis facilis vel nisi numquam, modi, sit obcaecati necessitatibus fugiat nesciunt.</p>
+		</section>
+		<section id = 't6'>
+			<label>Objetivos Especificos</label>
+			<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus numquam esse, ullam error, odio impedit repellendus et itaque sapiente deserunt quibusdam quod sunt voluptate minima quasi, laboriosam temporibus qui eius?</p>
+		</section>
+		<section id = 't7'>
+			<h2>MARCO TEORICO REFERENCIAL</h2>
+		</section>
+		<section id = 't8'>
+			<label>Revision Bibliografica</label>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero fuga in doloremque dicta soluta voluptate omnis quisquam, sit, ipsa debitis adipisci, dolore maiores explicabo aperiam, accusamus odit sed cupiditate vero.</p>
+		</section>
+		<section id = 't9'>
+			<label>Bases Teoricas</label>
+			<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores culpa repudiandae magni similique vitae delectus, eum, totam, eligendi ut harum modi molestiae commodi est at, et itaque facilis provident aliquam.</p>
+		</section>
+		<section id = 't10'>
+			<h2>METODOLOGIA</h2>
+		</section>
+		<section id = 't11'>
+			<label>Tipo de Investigacion</label>
+			<p>Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Repellat quos ipsa pariatur exercitationem nemo delectus perferendis quis ut itaque reprehenderit saepe, at, numquam, sed, quo! Culpa laboriosam modi, atque laborum!</p>
+		</section>
+		<section id = 't12'>
+			<label>Poblacion y Muestra</label>
+			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus beatae delectus facere soluta odio cupiditate saepe sint aut, exercitationem eos nostrum consequatur modi, enim commodi voluptatem eaque ipsa tempora magnam.</p>
+		</section>
+		<section id = 't13'>
+			<label>Tecnicas e Instrumentos de Recoleccion de Datos</label>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt natus odio soluta tempora exercitationem velit cum eveniet nihil iure unde ratione esse corrupti beatae, debitis quod animi dignissimos, modi? Rem?</p>
+		</section>
+		<section id = 't14'>
+			<label>Tecnicas de Procesamiento de Datos</label>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, sit? Ducimus temporibus, officia quod placeat, dignissimos, natus laboriosam alias est aspernatur facilis tempora aperiam, assumenda accusantium. Similique maxime non obcaecati?</p>
+		</section>
+		<section id = 't15'>
+			<h2>ADMINISTRACION</h2>
+		</section>
+		<section id = 't16'>
+			<label>Recursos Humanos</label>
+			<p>Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Quos deserunt, assumenda totam corrupti nihil atque delectus consectetur, harum nam dolorem sapiente, veniam! Pariatur repudiandae possimus impedit fugit odit temporibus, quam.</p>
+		</section>
+		<section id = 't17'>
+			<label>Recursos Institucionales</label>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, eos nisi velit dicta porro aspernatur amet suscipit dolores consequatur repudiandae culpa magnam dolorem modi nihil repellat aliquam eveniet id. Incidunt!</p>
+		</section>
+		<section id = 't18'>
+			<label>Recursos Financieros</label>
+			<p>Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Impedit dolorem suscipit architecto culpa, magni autem unde ducimus laborum soluta temporibus est laudantium illum possimus quisquam doloremque veniam rerum nisi delectus.</p>
+		</section>
+		<section id = 't19'>
+			<label>Cronograma de Actividades</label>
+			<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, at, placeat. Corporis perspiciatis soluta quia aspernatur harum, suscipit nostrum modi aliquid, incidunt neque, animi. Recusandae, corporis consectetur dolor vero dolorem.</p>
+		</section>
+		<div class="close-icon" onclick="
+		document.querySelector('.generalpublicaciones').style.display = 'grid';
+		document.querySelector('.tuspublicaciones').style.display = 'grid';
+		document.querySelector('.view').style.display = 'none';
+		">
+			<img src="assets/icons/211652_close_icon.png">
+		</div>
+	</div>
+</div>

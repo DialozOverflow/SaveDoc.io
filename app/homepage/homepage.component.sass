@@ -1,0 +1,34 @@
+.all
+	position: relative
+	width: 100%
+	height: 100vh
+	background: lightblue
+	display: grid
+	grid-template-rows: 1fr 1fr
+	grid-template-columns: 65% 35%
+	.ilu
+		grid-column: 1
+		grid-row: 1
+	.pub
+		grid-column: 1
+		grid-row: 2
+	.rlr
+		grid-column: 2
+		grid-row: 1 / span 2
+		display: flex
+		app-loginandregister
+			margin: auto
+
+@media screen and (max-width: 1245px)
+	.all
+		grid-template-columns: 100%
+		grid-template-rows: 100% 100%
+		overflow-y: scroll
+		.ilu
+			display: none
+		.rlr
+			grid-column: 1
+			grid-row: 1
+		.pub
+			grid-column: 1
+			grid-row: 2

@@ -1,0 +1,103 @@
+.contenedor
+	position: absolute
+	width: 100%
+	height: 100%
+	overflow: hidden
+	.listas
+		position: relative
+		top: 0px
+		left: 0px
+		display: grid
+		height: 100%
+		width: 100%
+		overflow-y: auto
+		scroll-behavior: auto
+		section
+			div
+				cursor: pointer
+		.more
+			position: absolute
+			bottom: 5%
+			right: 5%
+			background: white
+			border-radius: 50%
+			display: flex
+			justify-content: center
+			align-items: center
+			z-index: 10
+			&:hover
+				box-shadow: 0px 0px 20px rgba(0, 0, 0, .5)
+		.ant1,.ant2,.ant3,.ant4,.ant5,.ant6,.ant7,.ant8,.ant9,.ant10,.ant11,.ant12,.ant13,.ant14,.ant15,.ant16,.ant17,.ant18,.ant19,.ant20
+			height: 100px
+			display: none
+			padding: 20px
+			justify-content: space-between
+			align-items: center
+			&:hover
+				background: rgba(0, 0, 0, .12)
+			img
+				position: relative
+				right: 1%
+				top: 3%
+				height: 80px
+				width: 80px
+	.add
+		position: absolute
+		top: 0px
+		left: 0px
+		display: none
+		height: 100%
+		width: 100%
+		.contenido
+			padding: 20px
+			.nombre
+				padding-bottom: 40px
+				display: grid
+				grid-template-rows: auto auto
+				input
+					width: 25%
+			.describe
+				padding-bottom: 40px
+				display: grid
+				grid-template-rows: auto auto
+			.opcionpublic
+				width: 80px
+				display: flex
+				justify-content: space-around
+				align-items: center
+		.botones
+			margin-left: 20px
+			.crear
+				margin-right: 40px
+	.editor
+		position: relative
+		display: none
+		width: 100%
+		height: 100%
+		.container
+			position: relative
+			top: 0px
+			left: 0px
+			width: 100%
+			height: 100%
+			overflow-y: auto
+			section
+				display: grid
+				grid-template-rows: auto 1fr
+				grid-template-columns: 1fr
+				padding: 20px
+				h1
+					text-align: center
+					margin-top: 80px
+				label
+					margin: 20px 0px 20px 0px
+			img
+				position: absolute
+				background: red
+				top: 0
+				right: 0
+				border-bottom-left-radius: 10px
+				height: 50px
+				width: 50px
+				display: flex
+				cursor: pointer

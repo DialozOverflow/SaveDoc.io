@@ -1,0 +1,22 @@
+.contenedor
+	position: relative
+	width: 100%
+	height: 100%
+	display: flex
+	justify-content: center
+	align-items: center
+	section
+		display: flex
+		width: 800px
+		height: 300px
+		img
+			width: 0px
+			flex-grow: 1
+			object-fit: cover
+			opacity: .8
+			transition: .5s ease
+			&:hover
+				cursor: crosshair
+				width: 600px
+				opacity: 1
+				filter: contrast(120%)

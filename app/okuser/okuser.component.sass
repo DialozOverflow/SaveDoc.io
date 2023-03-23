@@ -1,0 +1,112 @@
+.todo
+	position: relative
+	top: 0px
+	left: 0px
+	width: 100%
+	height: 100vh
+	background: linear-gradient(135deg,white,rgb(180,180,255))
+	.headerimport
+		display: flex
+		justify-content: space-between
+		align-items: center
+		width: 100%
+		.cel
+			margin: 20px
+			p
+				display: none
+				cursor: pointer
+		nav
+			display: flex
+			justify-content: space-around
+			align-items: center
+			p
+				margin: 20px
+				cursor: pointer
+				transition: .25s
+				&:hover
+					color: red
+			.o1
+				font-weight: 1000
+	.main
+		position: relative
+		top: 0
+		left: 0
+		width: 100%
+		height: 80%
+		.pro
+			display: block
+			width: 100%
+			height: 100%
+		.pub
+			width: 100%
+			height: 100%
+			display: none
+		.not
+			width: 100%
+			height: 100%
+			display: none
+		.opc
+			width: 100%
+			height: 100%
+			display: none
+			.listopciones
+				position: absolute
+				width: 20%
+				height: 100%
+				background: rgba(0, 0, 0, .2)
+			.panel
+				position: absolute
+				width: 80%
+				background: pink
+				height: 100%
+				left: 20%
+				background: rgba(0, 0, 0, .1)
+				.backgroundd
+					padding: 50px
+					table
+						border-collapse: collapse
+						tr
+							td
+								height: 70px
+								width: 70px
+							.color1
+								background: linear-gradient(135deg,white,rgb(180,180,255))
+							.color2
+								background: linear-gradient(135deg,white,rgb(180,255,180))
+							.color3
+								background: linear-gradient(135deg,white,rgb(255,180,180))
+							.color4
+								background: linear-gradient(135deg,white,rgb(200,180,200))
+							.color5
+								background: linear-gradient(135deg,cyan,blue)
+							.color6
+								background: linear-gradient(135deg,yellow,red)
+							.color7
+								background: linear-gradient(135deg,white,gray)
+							.color8
+								background: linear-gradient(135deg,gray,black)
+	.footer
+		display: flex
+		justify-content: center
+		align-items: center
+		background: rgb(13, 40, 55)
+		height:9vh
+		color: rgb(230, 230, 230)
+
+@media screen and (max-width: 840px)
+	.todo
+		.headerimport
+			display: grid
+			grid-template-rows: auto auto
+			grid-template-columns: 100%
+			.cel
+				text-align: center
+		.main
+			height:75%
+
+@media screen and (max-width: 640px)
+	.todo
+		.headerimport
+			nav
+				overflow-x: scroll
+				padding-left: 80px
